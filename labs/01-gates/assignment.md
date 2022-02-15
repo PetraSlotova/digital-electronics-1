@@ -1,4 +1,4 @@
-# Lab 1: PETRA SLOTOVA
+# Lab 1: PETRA SLOTOVAAAA
 
 ### De Morgan's laws
 
