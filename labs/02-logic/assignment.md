@@ -1,6 +1,6 @@
 # Lab 2: Petra Slotova
 
-## 1. Prearation
+## 1. Preparation
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
