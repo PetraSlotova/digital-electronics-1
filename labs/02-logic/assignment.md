@@ -50,8 +50,8 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "0100"; -- Such as "0101" if ID = xxxx56
-        s_a <= "0001"; -- Such as "0110" if ID = xxxx56
+        s_b <= "0100"; 
+        s_a <= "0001"; 
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '1') and
@@ -59,6 +59,40 @@
                 (s_B_less_A    = '0'))
         -- If false, then report an error
         report "Input combination 0100, 0001" severity error;
+        
+        -- Second test case
+        s_b <= "0101"; 
+        s_a <= "0111"; 
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination 0101, 0111" severity error;
+        
+        -- Third test case
+        s_b <= "0110"; 
+        s_a <= "0110"; 
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '1') and
+                (s_B_less_A    = '0'))
+        -- If false, then report an error
+        report "Input combination 0110, 0110" severity error;
+        
+        -- Fourth test case
+        s_b <= "0001"; 
+        s_a <= "0000"; 
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
+        -- If false, then report an error
+        report "Input combination 0101, 0111" severity error;
+		
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
@@ -68,7 +102,7 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![Console screenshot](images/console.png)
 
 3. Link to your public EDA Playground example:
 
