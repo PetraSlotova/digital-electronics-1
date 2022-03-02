@@ -21,6 +21,6 @@
    | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
    | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-![7-segment display](images/segment1.png)
+![7-segment display](images/segment2.png)
 
-![7-segment display schematic](images/segment2.png)
+![7-segment display schematic](images/segment1.png)
