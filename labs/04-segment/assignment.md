@@ -1,4 +1,4 @@
-# Lab 3: Petra Slotova
+# Lab 4: Petra Slotova
 
 ## 1. Preparation
 
