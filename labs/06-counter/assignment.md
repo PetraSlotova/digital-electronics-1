@@ -65,8 +65,10 @@ not pressed = 0
 	
 	Reset
    	![Waveforms](images/waveforms1.png)
+
 	Counting down
 	![Waveforms](images/waveforms3.png)
+
 	Enable
 	![Waveforms](images/waveforms5.png)
 ### Two counters
