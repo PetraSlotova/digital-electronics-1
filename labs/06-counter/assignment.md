@@ -62,6 +62,7 @@ not pressed = 0
 ```
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+	
 	Reset
    	![Waveforms](images/waveforms1.png)
 	Counting down
