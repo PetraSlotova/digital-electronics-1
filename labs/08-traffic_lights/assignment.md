@@ -9,6 +9,8 @@
 
 ![Leds](images/RGBLeds.png)
 
+![Pmod ports](images/Pmods.png)
+
 ### Traffic light controller
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
